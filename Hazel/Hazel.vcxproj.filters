@@ -105,7 +105,12 @@
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
       <Filter>Platform\Windows</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="src\hzpch.h" />
+=======
+    <ClInclude Include="src\Hazel\Renderer\GraphicsContext.h" />
+    <ClInclude Include="src\Platform\OpenGL\OpenGLContext.h" />
+>>>>>>> e7b5157859db804d336641dce36bfa4ed163c751
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
@@ -138,6 +143,10 @@
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
       <Filter>Platform\Windows</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="src\hzpch.cpp" />
+=======
+    <ClCompile Include="src\Platform\OpenGL\OpenGLContext.cpp" />
+>>>>>>> e7b5157859db804d336641dce36bfa4ed163c751
   </ItemGroup>
 </Project>
