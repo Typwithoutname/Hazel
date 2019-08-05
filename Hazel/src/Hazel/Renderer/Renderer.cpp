@@ -2,6 +2,8 @@
 #include "Renderer.h"
 //#include "Platform\OpenGL\OpenGLShader.h"
 
+#include "Platform/OpenGL/OpenGLShader.h"
+
 namespace Hazel {
 
 	Renderer::SceneData* Renderer::s_SceneData = new Renderer::SceneData;
