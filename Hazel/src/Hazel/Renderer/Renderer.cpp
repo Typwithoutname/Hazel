@@ -1,6 +1,5 @@
 #include "hzpch.h"
 #include "Renderer.h"
-//#include "Platform\OpenGL\OpenGLShader.h"
 
 #include "Platform/OpenGL/OpenGLShader.h"
 
